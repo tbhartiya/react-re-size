@@ -7,7 +7,7 @@ const style = {
   justifyContent: "center",
   border: "solid 1px #ddd",
   background: "#f0f0f0",
-  margin: "1rem",
+  margin: "1%",
 };
 
 export default function App() {
@@ -25,7 +25,7 @@ export default function App() {
       <Resizable
         style={style}
         defaultSize={{
-          width: "60%",
+          width: "66%",
           height: 250,
         }}
       >
@@ -34,8 +34,8 @@ export default function App() {
       <Resizable
         style={style}
         defaultSize={{
-          width: "94%",
-          height: 300,
+          width: "98%",
+          height: 350,
         }}
       >
         main
